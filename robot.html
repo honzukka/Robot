@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Robot</title>
+	</head>
+
+	<body onload="main()">
+		<canvas id="webgl" width="500" height="500">
+		Canvas not supported. Please use a browser which supports canvas.
+		</canvas>
+		<br>
+		<table style="width:500px">
+			<tr>
+				<td>Move the robot:</td>
+				<td><b>up</b>, <b>down</b>, <b>left</b> and <b>right</b> arrow keys</td>
+			</tr>
+			<tr>
+				<td>Rotate the robot:</td>
+				<td><b>mouse dragging</b></td>
+			</tr>
+			<tr>
+				<td>Change the size of the robot:</td>
+				<td><b>mouse wheel scrolling</b></td>
+			</tr>
+		</table>
+
+		<script src="./lib/webgl-utils.js"></script>
+		<script src="./lib/webgl-debug.js"></script>
+		<script src="./lib/cuon-utils.js"></script>
+		<script src="./lib/cuon-matrix.js"></script>
+		<script src="./robot.js"></script>
+	</body>
+</html>
